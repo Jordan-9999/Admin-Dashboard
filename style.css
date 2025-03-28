@@ -1,0 +1,147 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    
+    
+    
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .container{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    height:100vh;
+  }
+
+  
+
+  header{
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .search-bar-container{
+    border:1px solid black;
+  }
+  h1{
+    border:1px solid black;
+    grid-row: 2 / 3;
+  }
+  .profile-img-container{
+    border:1px solid black;
+  }
+  .button-container{
+    border:1px solid black;
+    grid-row:2 / 3;
+  }
+  aside{
+    background-color: rgb(85, 128, 219);
+    grid-row: 1 / 3;
+    color:white;
+    padding-left: 20px;
+    padding-top:10px;
+    
+    
+  }
+  h2{
+    border: 0px solid white;
+    padding-bottom: 15px;
+  }
+  .link-group-one{
+    display:grid;
+    border:0px solid white;
+    padding-bottom: 35px;
+  }
+  .link-group-two{
+    display:grid;
+    border:0px solid white;
+    
+  }
+  a{
+    text-decoration: none;
+    color:white;
+    padding-bottom:5px;
+  }
+
+
+  main{
+    display:grid;  
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:30px 1fr;
+    background-color:rgb(150, 147, 147);
+    padding: 15px 40px 45px 40px
+
+  }
+  h3{
+    grid-row: 1 / 2;
+    border:1px solid white;
+  }
+  
+    
+    
+  
+  .projects-section{
+    display:grid;
+    grid-row:2 / 3;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    
+  }
+  .card{
+    background-color: white;
+    height:150px;
+  }
+  .section-two{
+    padding-left:20px;
+  }
+  .section-two  h3{
+    
+  }
+.announcements-card{
+    background-color: white;
+    height:210px;
+    margin-bottom:20px;
+}
+
+.trending-card{
+    background-color: white;
+    height:210px;
+}
+  
+  
