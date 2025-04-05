@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
@@ -13,11 +16,18 @@
     
     <header>
         <form class="search-bar-container" action="">
+            <img class="search-icon" src="images/magnify.svg" alt="">
             <input class="search-bar" type="text">
         </form>
-        <div class="profile-img-container">Your name</div>
+        <div class="notification-container">
+            <img class="notification-icon" src="images/bell-ring.svg" alt="">
+            <img  class="header-icon" src="images/face-man.svg" alt="">
+             <p>Username</p></div>
 
-        <h1>Header</h1>
+        <div class="profile-header-section">
+            <img class="header-icon" src="images/face-man.svg" alt="">
+                   <h2>Username(@username56)</h2>
+        </div>
 <div class="button-container">
     
             <button>New</button>
@@ -27,22 +37,26 @@
     </header>
     
     <aside>
-    <h2>Dashboard</h2>
 
-    <div class="link-group-one">
-        <a href="">Home</a>
-        <a href="">Profile</a>
-        <a href="">Messages</a>
-        <a href="">History</a>
-        <a href="">Tasks</a>
-        <a href="">Communities</a>
-    </div>
+        
+            <h2><img class="icon" src="images/duck.svg">Dashboard</h2>
+        
+        <div class="link-group-one">
+            <div class="side-link"><a href=""><img class="icon" src="images/home.svg">Home</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/card-account-details-outline.svg">Profile</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/message.svg">Messages</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/clock-time-three.svg">History</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/file-multiple.svg">Tasks</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/account-group.svg">Community</a></div>
+        </div>
+        <div class="link-group-two">
+            <div class="side-link"><a href=""><img class="icon" src="images/cog.svg">Settings</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/help-box.svg">Support</a></div>
+            <div class="side-link"><a href=""><img class="icon" src="images/shield-check.svg">Privacy</a></div>
+        </div>
 
-    <div class="link-group-two">
-        <a href="">Settings</a>
-        <a href="">Support</a>
-        <a href="">Privacy</a>
-    </div>
+
+
     </aside>
     
     <main>
@@ -98,3 +112,21 @@
 
 </body>
 </html>
+
+<!--
+<h2><img class="icon" src="images/duck.svg">Dashboard</h2>
+
+    <div class="link-group-one">
+        <img class="icon" src="images/home.svg"><a href="">Home</a></div>
+        <img class="icon" src="images/card-account-details-outline.svg"><a href="">Profile</a>
+        <img class="icon" src="images/message.svg"><a href="">Messages</a>
+        <img class="icon" src="images/clock-time-three.svg"><a href="">History</a>
+        <img class="icon" src="images/file-multiple.svg"><a href="">Tasks</a>
+        <img class="icon" src="images/account-group.svg"><a href="">Communities</a>
+    </div>
+
+    <div class="link-group-two">
+        <img class="icon" src="images/cog.svg"><a href="">Settings</a>
+        <img class="icon" src="images/help-box.svg"><a href="">Support</a>
+        <img class="icon" src="images/shield-check.svg"><a href="">Privacy</a>
+    </div>-->
