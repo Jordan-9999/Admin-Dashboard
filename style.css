@@ -168,19 +168,22 @@
   aside h2{
     display:grid;
     grid-template-columns: 36px 125px;
-    gap:3px;
-    border:1px solid white;
+    gap:8px;
+    border:0px solid white;
     margin-bottom: 30px;
+    padding-right: 18px;
+    
     
   }
   
   
 .link-group-one{
   border:0px solid white;
-  
   margin-bottom:50px;
+  margin-left:5px;
 }
 .link-group-two{
+  margin-left:5px;
   border:0px solid white;
 }
 .icon{
@@ -197,7 +200,7 @@
 a{
   display:grid;
   grid-template-columns: 25px 25px;
-  gap:10px;
+  gap:15px;
   text-decoration: none;
   color:white;
   border:0px solid white;
@@ -228,34 +231,55 @@ a{
     display:grid;
     grid-row:2 / 3;
     grid-template-columns: 1fr 1fr;
-    gap:20px;
+    gap:30px;
     
   }
   .card{
+    display: grid;
+    grid-template-rows: 1fr 25px;
     background-color: white;
+    padding:12px;
     height:220px;
+    border-radius: 5px;
+    box-shadow: -10px 0px  rgb(255, 227, 68);
+  }
+  .card-icon-row{
+    display:grid;
+    grid-template-columns: 25px 25px;
+    justify-content: end;
+    gap:15px;
+    
+    border:0px solid black;
+
+  }
+  .card-icon-one{
+    width:25px;
+  }
+  .card-icon-two{
+    width:25px;
   }
   .section-two{
     padding-left:20px;
-    
   }
   
  .section-two h3{
-  border:1px solid white;
+  border:0px solid white;
  }
 
 .announcements-card{
    background-color: white;
-   height:320px;
+   padding: 12px;
+   height:330px;
    margin-bottom:30px;
-
+   border-radius:5px;
 }
 
 .trending-card{
+    padding:12px;
     background-color: white;
-    height:320px;
+    height:330px;
+    border-radius:5px;
 }
   
   
-
 
